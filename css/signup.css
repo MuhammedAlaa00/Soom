@@ -1,0 +1,325 @@
+
+@font-face {
+  font-family: Tajawal;
+  src: url(../fonts/Tajawal-Medium.ttf);
+}
+body,html{
+    font-family: Tajawal;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+p, h1, h2, h3, ol, ul , li,span{
+    margin: 0;
+    padding: 0;
+}
+button, input:focus{
+    outline: none !important;
+}
+
+li{
+    list-style: none;
+}
+
+.row{
+    margin: 0px;
+}
+/*main*/
+.main{
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefef;
+}
+.content{
+    width: 90%;
+    height: calc(100vh - 200px);
+    position: relative;
+}
+.form{
+    position: absolute;
+    right: 0px;
+    top: 10%;
+    bottom: 0px;
+    width: 70%;
+    padding: 10px 10px 10px 10%;
+    box-shadow: 0px 3px 10px rgba(0,0,0,.1);
+    transition: all 1s;
+    overflow-y: scroll;
+    background-color: #fff;
+}
+
+.bg-form{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 20%;
+    width: 40%;
+    z-index: 2;
+    overflow: hidden;
+    transition: all 1s;
+    
+}
+.bg-form .bg-image{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.blur{
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+.blur img{
+    width: 200px;
+    margin-bottom: 100px;
+}
+.blur h1{
+    margin-bottom: 20px;
+}
+
+
+
+.form .section-form{
+    width: 60%;
+    margin: auto;
+    color: #334565;
+}
+/*sign-up*/
+.form .sign-up{
+    font-weight: bold;
+    padding-left: 5px;
+    font-size: 37px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*avatar*/
+.mypicture{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px solid #dddd;
+    box-shadow: 0px 3px 10px rgba(0,0,0,.1)
+}
+
+.avatar img{
+    width: 100px;
+    object-fit: cover;
+    height: 100px;
+    
+}
+
+.input-avatar{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    right: 5px;
+    bottom: 5px;
+    z-index: 2;
+    background-color: #fff;
+   cursor: pointer;
+    box-shadow: 0px 3px 10px rgba(0,0,0,.1);
+}
+.input-avatar:before {
+    content: "+";
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    font-size: 20px;
+    margin: -5px 0px 0px 5px;
+    cursor: pointer;
+    color: #334565;
+
+}
+.input-avatar input{
+    opacity: 0;
+    display: none;
+}
+.inputs{
+    position: relative;
+     background-color: #fff;
+     margin: 10px 0;
+   border-left: 5px solid #334565;
+    box-shadow: 0px 3px 10px rgba(0,0,0,.1);
+}
+.form .txtb{
+    position: relative;
+    height: 66px;
+}
+.form .txtb input ,.form .txtb select{
+    font-size: 20px;
+    color: #334565;
+    border: none;
+    width: 100%;
+    outline: none;
+    background: none;
+    padding: 0px 10px;
+    padding-top: 20px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    top: 0px;
+  
+     
+}
+.form .txtb span::before {
+    content: attr(data-placeholder);
+    position: absolute;
+    top: 35%;
+    left: 5px;
+    transition: .5s;
+    font-size: 16px;
+    color: #707070;
+    z-index: 0;
+}
+.focus + span::before{
+    top: 0px !important;
+}
+
+
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) , .bootstrap-select:hover {
+    width: 100%;
+    font-size: 22px;
+    color: #334565;
+    border: none;
+    width: 100%;
+    outline: none;
+    background: none;
+}
+.btn-default ,.btn-default:hover, .btn-default:focus{
+    background-color: #fff;
+    border:0px; 
+    height: 66px;
+    outline: none;
+}
+
+.bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+    font-size: 16px;
+    color: #707070;
+    margin-top: 15px
+}
+
+.sign-in-botton{
+    float: right;
+    padding: 10px;
+    background-color: #fff;
+     box-shadow: 0px 3px 10px rgba(0,0,0,.1);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in-botton span{
+    margin-right: 5px
+}
+
+.sign-in{
+    display: flex;
+    justify-content:space-between;
+    align-items: center
+}
+
+.form a{
+    font-size: 19px;
+    text-decoration: none;
+    color: #334565;
+}
+
+/*scroll bar*/
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* width */
+.notification-list ::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0); 
+    width: 0px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #334565; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #334565; 
+}
+    
+
+@media(max-width:900px){
+    .bg-form {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0%;
+    width: 100%;
+    z-index: 0;
+    overflow: hidden;
+}
+    .form {
+    position: absolute;
+    right: 0px;
+    top: 0%;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(0,0,0, 0);
+}
+    .blur img, .blur h1 ,.blur p{
+        display: none;
+    }
+    .content{
+    width: 100%;
+    height: calc(100vh);
+}
+    .form .sign-up {
+    color: #fff;
+}
+    .form .section-form {
+    width: 90%;
+}
+}
+.no-pad {
+    padding: 0;
+  }
+  .no-pad .inputs {
+    margin: 0px;
+  }

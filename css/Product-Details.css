@@ -1,0 +1,377 @@
+
+@font-face {
+  font-family: Tajawal;
+  src: url(../fonts/Tajawal-Medium.ttf);
+}
+body{
+    font-family: Tajawal;
+    margin: 0;
+    padding: 0;
+    
+}
+p, h1, h2, h3, ol, ul , li,span{
+    margin: 0;
+    padding: 0;
+}
+button, input:focus{
+    outline: none !important;
+}
+.form-control:focus {
+box-shadow: 0px 0px 0px 0px;
+/*height: 50px;}*/
+}
+li{
+    list-style: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.row{
+    margin: 0px;
+}
+/*main*/
+.main{
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.live_video
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: none;
+    z-index: 9;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.live_video img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*rtl menu*/
+.rtl .menu .list ul {flex-direction: row-reverse;}
+.rtl .text-uppercase{
+    text-align: right;
+}
+
+@media(max-width:425px){
+    .notification-list {
+        width: 255px !important;}
+}
+@media(max-width:320px){
+    .notification-list {
+    z-index: 9999;
+    position: absolute;
+    right: -48px !important;
+    top: 53px;
+        width: 255px}
+}
+
+
+
+
+
+
+
+
+.slider-content{
+    padding-top: 110px;
+}
+
+#carousel-custom .carousel-indicators {
+    margin: 10px 0 0;
+    overflow: auto;
+    position: static;
+    text-align: left;
+    white-space: nowrap;
+    width: 100%;
+}
+#carousel-custom .carousel-indicators li {
+    background-color: transparent;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    display: inline-block;
+    height: auto;
+    margin: 0 !important;
+    width: auto;
+}
+#carousel-custom .carousel-indicators li img {
+    display: block;
+    opacity: 0.5;
+}
+#carousel-custom .carousel-indicators li.active img {
+    opacity: 1;
+}
+#carousel-custom .carousel-indicators li:hover img {
+    opacity: 0.75;
+}
+#carousel-custom .carousel-outer {
+    position: relative;
+}
+
+.carousel-control.right, .carousel-control.left{
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    line-height: 1;
+    width: 100%;
+}
+.slick-slide img {
+    display: block;
+    width: 98%;
+    margin: 1%;
+}
+
+
+.product-des{
+    padding: 50px;
+    font-size: 25px;
+    color: #334565;
+}
+
+.rtl .product-des, .rtl .product{
+    text-align: right;
+}
+
+
+
+.product{
+    background-color:#EFEFEF;
+    padding: 25px;
+    
+}
+.product h1{
+    font-size: 40px;
+}
+.product p{
+    font-size: 25px;
+}
+.product hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0.3px solid #c1c1c1;
+    border-top: 1px solid #eae9e9;
+}
+.info{
+    display: flex;
+}
+.info span{
+    margin: 0px 15px 0px 0px;
+    font-weight: bold;
+}
+.rtl .info {
+    flex-flow: row-reverse;
+}
+/*load more*/
+#tender-button {
+    display: block;
+    width: 200px;
+    font-size: 24px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #334565;
+    color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: all 300ms ease-in;
+    
+}
+.add-input 
+{
+    height: 50px;
+}
+.add-btn{
+    display: block;
+    font-size: 24px;
+    margin: 10px auto;
+    padding: 0px 20px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #334565;
+    color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: all 300ms ease-in;
+}
+#tender-button:hover , 
+#tender-button:focus,
+.add-btn:hover,
+.add-btn:focus,
+.add-btn:active{
+    background-color: #fff;
+    color: #33739E;
+}
+
+.tender-content{
+    padding: 30px;
+    display: none;
+}
+.tender-content .add-scroll 
+{
+    margin-top: 6px;
+    overflow: auto;
+    height: 540px;
+    margin-bottom: 10px;
+}
+.tender-content .user{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+.user-img{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.user-img img{
+    width: 100%;
+    border-radius: 50%;
+}
+.user-tender{
+    background-color: #334565;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.top-three{
+    
+        padding-left: 100px;
+}
+.top-add-title{
+    border: 1px solid #efefef;
+    padding: 6px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.add input{
+    width: 100%;
+    margin: 0px;
+    height: 55px;
+}
+.rtl .add input{
+    text-align: right;
+}
+.add-tag
+{
+    padding-right: 100px;
+}
+.add {
+    padding-right: 100px;
+    border-right: 1px solid #707070;
+}
+
+
+
+/*modal*/
+.modal.in .modal-dialog,
+.modal.fade .modal-dialog 
+    {
+        height: 100%;
+    }
+.modal-content
+    {
+        top: 15%;
+    }
+.modal{
+    text-align: center;
+}
+.modal h4{
+    font-size: 35px;
+}
+.modal p{
+    font-size: 21px;
+    text-align: left;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.check-box{
+    font-size: 25px;
+}
+/*.check*/
+.check{
+    display: flex;
+}
+
+.check div{
+    flex: 1;
+}
+.check div a{
+    float: right;
+}
+.check .check-box{
+    flex: 1;
+    margin-bottom: 10px;
+}
+.check div span{
+
+    display: block;
+}
+
+.modal .add-btn{
+    padding: 10px 20px;
+}
+
+.second-modal .modal-title 
+{
+    color: #000;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.second-modal .modal-body {
+    padding: 25px 30px 30px 30px;
+}
+.second-modal .modal-body p {
+    text-align: center;
+    font-size: 25px;
+    color: #000;
+    font-weight: 600;
+    padding: 8px 0px 8px 0px;
+}
+.second-modal .modal-body p i {
+    margin-right: 10px;
+    font-size: 30px;
+}
+.second-modal .modal-content {
+    top: 25%;
+}
+@media(max-width:767px){
+    .add {
+        padding-right:0px;
+    border-right: 0px solid #707070;
+}
+    .top-three {
+    padding-left: 0px;
+}
+.product-des{
+    padding: 0;
+    font-size: 19px;
+    color: #334565;
+}
+.modal p {
+    font-size: 18px;
+    text-align: left;
+}
+.modal h4 {
+    font-size: 25px;
+}
+.second-modal .modal-body p{
+    font-size: 15px;
+}
+.second-modal .modal-body p i
+{
+    font-size: 23px;
+}
+}

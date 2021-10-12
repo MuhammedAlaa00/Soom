@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>أضف إعلان</title>
+  <link id="favicon" rel="shortcut icon" type="image/png" href="images/soom-social-logo.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/adds.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+  <!-- main-->
+  <div class="main">
+    <nav id="navbar" class="navbar navbar-default home-navbar">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" id="navbar-toggle" class="navbar-toggle " data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="navbar-toggle notification-toggle" aria-expanded="false">
+                        <div class="notification">
+                            <span class="notification-icon "><i class="fa fa-bell"></i></span>
+                            <span class="number">50</span>
+
+                            <div class="notification-list">
+                                <a href="#">
+                                    <div class="notification-content">
+                                        <div class="notification-img ">
+                                            <img src="images/bg.jpg" alt="">
+                                        </div>
+                                        <div class="notification-info">
+                                            <h2>title title title title title</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi,
+                                                rerum sit! Ipsam, hic laboriosam perferendis enim, dolorem vero
+                                                facere suscipit rerum amet, voluptas corrupti dolorum, porro
+                                                debitis! Et, repellendus ab.</p>
+                                            <div><span class="notification-date">10/2/2020</span> <span
+                                                    class="notification-time">9:40 pm</span></div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="notification-content">
+                                        <div class="notification-img ">
+                                            <img src="images/bg.jpg" alt="">
+                                        </div>
+                                        <div class="notification-info">
+                                            <h2>title title title title title</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi,
+                                                rerum sit! Ipsam, hic laboriosam perferendis enim, dolorem vero
+                                                facere suscipit rerum amet, voluptas corrupti dolorum, porro
+                                                debitis! Et, repellendus ab.</p>
+                                            <div><span class="notification-date">10/2/2020</span> <span
+                                                    class="notification-time">9:40 pm</span></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a href="#" class="lang" key="home">Home</a></li>
+                        <li><a href="#" class="lang" key="about-us">About Us</a></li>
+                        <li><a href="#" class="lang" key="sign-in">Sign in</a></li>
+                        <li><a href="#" class="lang" key="my-profile">My Profile</a></li>
+                        <li><span class="fa fa-search" onclick="openSearch()"></span></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li id="en" class="translate"><a href="#"><i class="fa fa-globe"></i> english</a></li>
+                        <li id="ar" class="translate"><a href="#">عربي <i class="fa fa-globe"></i></a></li>
+                        <li class="noti">
+                            <div class="notification">
+                                <span class="notification-icon "><i class="fa fa-bell"></i></span>
+                                <span class="number">999</span>
+
+                                <div class="notification-list">
+                                    <a href="#">
+                                        <div class="notification-content">
+                                            <div class="notification-img ">
+                                                <img src="images/bg.jpg" alt="">
+                                            </div>
+                                            <div class="notification-info">
+                                                <h2>title title title title title</h2>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi,
+                                                    rerum sit! Ipsam, hic laboriosam perferendis enim, dolorem vero
+                                                    facere suscipit rerum amet, voluptas corrupti dolorum, porro
+                                                    debitis! Et, repellendus ab.</p>
+                                                <div><span class="notification-date">10/2/2020</span> <span
+                                                        class="notification-time">9:40 pm</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="notification-content">
+                                            <div class="notification-img ">
+                                                <img src="images/bg.jpg" alt="">
+                                            </div>
+                                            <div class="notification-info">
+                                                <h2>title title title title title</h2>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi,
+                                                    rerum sit! Ipsam, hic laboriosam perferendis enim, dolorem vero
+                                                    facere suscipit rerum amet, voluptas corrupti dolorum, porro
+                                                    debitis! Et, repellendus ab.</p>
+                                                <div><span class="notification-date">10/2/2020</span> <span
+                                                        class="notification-time">9:40 pm</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+            <div id="myOverlay" class="overlay">
+                <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+                <div class="overlay-content">
+                    <form action="/action_page.php">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search for...">
+                            <span class="input-group-btn">
+                                <button class="btn" type="button"> Search </button>
+                            </span>
+                        </div><!-- /input-group -->
+                    </form>
+                </div>
+            </div>
+        </nav>
+    <div class="content">
+      <!--          form-->
+      <div class="form">
+        <form action="" id="signup_form">
+          <fieldset>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="inputs">
+                  <div class="form-group title-content">
+                    <label for=""></label>
+                    <div class="title">
+                      <a href="#" class="active">cars</a>
+                      <a href="#">MOTORCYCLES </a>
+                      <a href="#">MARINE TOOLS </a>
+                      <a href="#">HEAVY EWUIPMENT</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="inputs">
+                  <div class="form-group">
+                    <select class="form-control" >
+                      <option selected>your city</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="inputs">
+                  <div class="form-group">
+                    <select class="form-control" >
+                      <option selected>motor</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="inputs">
+                  <div class="form-group">
+                    <select class="form-control" >
+                      <option selected>motor type</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="inputs">
+                  <div class="form-group">
+                    <select class="form-control" >
+                      <option selected>statue</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="inputs">
+                  <div class="form-group">
+                    <select class="form-control" >
+                      <option selected>warranty</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="inputs">
+                  <div class="form-group">
+                    <select class="form-control" >
+                      <option selected>manufacturng year</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="inputs">
+                  <div class="form-group">
+                    <select class="form-control" >
+                      <option selected>color</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="inputs">
+                  <div class="form-group">
+                    <select class="form-control" >
+                      <option selected>advertising check</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="inputs">
+                  <div class="form-group">
+                    <select class="form-control" >
+                      <option selected>transmission type</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="inputs">
+                  <div class="form-group">
+                    <select class="form-control" >
+                      <option selected>Insurance Type</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <!-- add images-->
+              <div class="col-sm-12">
+                <div class="inputs ad_head">
+                  <label for="">صور المنتج</label>
+                  <div class="form-group">
+                    <div class="images-product">
+                      <div class="mypicture">
+                        <div class="avatar">
+                          <img id="image1" src="images/Attach-image.JPG">
+                        </div>
+                        <label class="input-avatar"><input id="input-image1" type="file" hidden></label>
+                      </div>
+                      <div class="mypicture">
+                        <div class="avatar">
+                          <img id="image2" src="images/Attach-image.JPG">
+                        </div>
+                        <label class="input-avatar"><input id="input-image2" type="file" hidden></label>
+                      </div>
+                      <div class="mypicture">
+                        <div class="avatar">
+                          <img id="image3" src="images/Attach-image.JPG">
+                        </div>
+                        <label class="input-avatar"><input id="input-image3" type="file" hidden></label>
+                      </div>
+                      <div class="mypicture">
+                        <div class="avatar">
+                          <img id="image4" src="images/Attach-image.JPG">
+                        </div>
+                        <label class="input-avatar"><input id="input-image4" type="file" hidden></label>
+                      </div>
+                      <div class="mypicture">
+                        <div class="avatar">
+                          <img id="image5" src="images/Attach-image.JPG">
+                        </div>
+                        <label class="input-avatar"><input id="input-image5" type="file" hidden></label>
+                      </div>
+                      <div class="mypicture">
+                        <div class="avatar">
+                          <img id="image6" src="images/Attach-image.JPG">
+                        </div>
+                        <label class="input-avatar"><input id="input-image6" type="file" hidden></label>
+                      </div>
+                      <div class="mypicture">
+                        <div class="avatar">
+                          <img id="image7" src="images/Attach-image.JPG">
+                        </div>
+                        <label class="input-avatar"><input id="input-image7" type="file" hidden></label>
+                      </div>
+                      <div class="mypicture">
+                        <div class="avatar">
+                          <img id="image8" src="images/Attach-image.JPG">
+                        </div>
+                        <label class="input-avatar"><input id="input-image8" type="file" hidden></label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--              upload video-->
+              <div class="col-sm-12">
+                <div class="inputs ad_head">
+                  <label for="">فيديو المنتج</label>
+                  <div class="form-group">
+                    <div class="video">
+                      <video controls>
+                        <source src="mov_bbb.mp4" id="video_here">
+                        Your browser does not support HTML5 video.
+                      </video>
+                      
+                      <span class="btn btn-default btn-file ">
+                        Browse <input type="file" name="file[]" class="file_multi_video form-control" accept="video/*">
+                    </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <div class="col-sm-12">
+            
+              
+                <label for=""></label>
+                <button class="btn btn-defualt">Add</button>
+             
+            
+          </div>
+        </form>
+      </div> <!-- end form-->
+    </div>
+  </div>
+      <!-- Footer -->
+  <footer class="page-footer">
+        <div class="container-fluid text-center text-md-left">
+
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-sm-5">
+
+                    <!-- Content -->
+                    <h5 class="text-uppercase lang" key="terms">Terms &amp; Conditions</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, quaerat? Neque
+                        excepturi laborum recusandae adipisci libero, magnam vel molestias provident voluptatum,
+                        deserunt quae inventore incidunt fugiat consectetur aut temporibus quasi.</p>
+
+                </div>
+
+                <!-- Grid column -->
+                <div class="col-sm-4">
+                    <!-- Links -->
+                    <h5 class="text-uppercase lang" key="support-links">Support Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="lang" key="home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lang" key="category">Category</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lang" key="about-us">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lang" key="my-profile">My Profile</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <!-- Grid column -->
+                <div class="col-sm-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase lang" key="follow-us">Follow Us</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#">
+                                <span class="fa fa-facebook"></span>
+                                <span class="name lang" key="facebook">FaceBook</span></a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa fa-twitter"></span>
+                                <span class="name lang" key="twitter">Twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="#!">
+                                <span class="fa fa-youtube"></span>
+                                <span class="name lang" key="youtube">Youtube</span></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <!-- Footer Links -->
+        <hr class="clearfix ">
+        <div class="row">
+            <div class="col-sm-4 store">
+                <a href="#">
+                    <img src="images/google_play_badge_en_black.jpg" alt="">
+                </a>
+                <a href="#">
+                    <img src="images/apple_appstore_badge_en.svg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 logo-footer">
+                <a href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <div class="footer-copyright text-center py-3"><span class="lang" key="copyright">© 2020 Copyright:
+                    </span><a href="#">SOOM.com</a>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright -->
+
+
+    </footer>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.4.5/js/bootstrapvalidator.min.js"></script>
+  <script src="js/script.js"></script>
+<script>
+  $('.title a').click(function(){
+    $(this).addClass('active').siblings().removeClass('active')
+  });
+</script>
+</body>
+
+</html>

@@ -1,0 +1,406 @@
+
+/*main*/
+
+
+
+/*navbar*/
+.navbar-default{
+    position: fixed;
+    z-index: 5555;
+    left: 0;
+    right: 0;
+    border: 0;
+    height: 80px;
+    padding: 5px;
+    border-radius: 0;
+    background-color: #334565;
+    transition: background-color 0.9s;
+}
+.home-navbar{
+    background-color: #334565;
+}
+.notification-toggle{
+    padding: 0px;
+    border: 0px;
+}
+.navbar-brand>img{
+    width: 160px;
+}
+
+.notification-toggle .notification{
+    padding: 0px;
+    border: 0px;
+}
+.notification-toggle .notification img{
+    width: 50px;
+}
+.notification-toggle .notification .number{
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+/*    line-height: 20px;*/
+    right: 10px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+.navbar-nav>li>a:hover{
+    border-bottom: 1px solid #537D91;
+}
+
+.navbar-nav>li>a {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fff !important;}
+
+.navbar-nav>li>span{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 26px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+/*
+.navbar-right li span{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 35px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+*/
+.fa-bell{
+    font-size: 29px;
+    color: #fff;
+    margin-top: 0px;
+    width: 41px;
+    padding: 5px;
+    height: 38px;
+    text-align: center;
+}
+
+.navbar-collapse {
+    padding: 0px;
+}
+/*notification*/
+.notification{
+    padding: 15px;
+}
+.notification span{
+    cursor: pointer;
+}
+.notification .number{
+   position: absolute;
+    bottom: 27px;
+    background-color: #d50e0e;
+    right: 11px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+}
+.notification-list{
+    z-index: 9999;
+    position: absolute;
+    right: 0px;
+    max-height: calc(100vh - 200px);
+    height: 459px;
+    overflow-y: auto;
+    width: 320px;
+    box-shadow: 0 11px 15px -15px rgba(0, 0, 0, 0.2), inset 0 -50px 20px -20px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: none;
+}
+
+.notification-list img{
+    width: 100% !important;
+    padding: 5px;
+    height: 90px;
+}
+.notification-list a{
+    display: block;
+    background-color: #537D91;
+    text-decoration: none;
+    border-bottom: 0.2px solid #fff;
+}
+.notification-list a.read 
+{
+    background-color: #000;
+}
+.notification-list a:hover
+{
+    text-decoration: none;
+}
+.notification-list a:last-child{
+    border-bottom: 0px;
+}
+
+.notification-content{
+    display: flex;
+    padding: 5px;
+    
+}
+
+.notification-img{
+    flex: 1;
+}
+.notification-info{
+    position: relative;
+    flex: 1.3;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 5px;
+}
+.rtl .notification-info{
+    position: relative;
+    padding: 5px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.rtl .notification-info h2, .rtl .notification-info p{
+    text-align: right;
+}
+.notification-info h2{
+    font-size: 17px;
+    overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.notification-info p{
+    font-size: 11px;
+    padding-top: 6px;
+    overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.notification-info div{
+    padding-top: 5px;}
+.notification-info .notification-date{
+    float: left;
+    font-size: 12px;
+}
+.notification-info .notification-time{
+    float: right;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 99999999;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.8);
+}
+
+.overlay-content {
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: white;
+}
+
+.overlay .closebtn:hover {
+  color: #ccc;
+}
+
+.overlay input[type=text] {
+  padding: 32px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 100%;
+  background: white;
+}
+
+.overlay input[type=text]:hover {
+  background: #f1f1f1;
+}
+
+
+.overlay button:hover {
+  background: #bbb;
+}
+
+.overlay .btn {
+    background-color: #334565;
+    color: #fff;
+    padding: 21.5px 12px;}
+.overlay .btn:hover {
+    background-color: #334565;
+    color: #fff;
+    padding: 21.5px 12px;}
+
+
+.notification-icon img{
+        width: 77px;
+    }
+
+.navbar .container-fluid {
+    max-width: 1900px;
+}
+
+@media(max-width:943px){
+    .navbar-brand>img {
+    width: 201px;
+}
+    .notification-icon img {
+    width: 65px;
+}
+    .notification .number {
+    bottom: 32px;
+    right: 24px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 10px;
+    
+}
+    .navbar-nav>li>a {
+
+    font-size: 16px;
+  
+}
+    .navbar-nav>li>span {
+ 
+    font-size: 17px;
+    margin-top: 33px;
+
+}
+}
+
+@media(max-width:828px){
+    .navbar-brand>img {
+    width: 164px;
+}
+    .navbar-nav>li>a {
+    margin-top: 10px;
+    font-size: 14px;
+
+}
+    .navbar-nav>li>span {
+    font-size: 14px;
+    margin-top: 26px;
+}
+    .fa-bell {
+        margin-top: 2px;}
+    .navbar-default {
+        height: 64px;}
+}
+@media (max-width: 767px)
+{
+.navbar-brand>img {
+    width: 100px;
+}
+    .noti{
+        display: none !important;
+    }
+    .home-navbar {
+    background-color: #334565 !important;
+}
+    .navbar-nav {
+    margin: 0;
+}
+    .navbar-nav>li>a:hover {
+    border-bottom: 0px solid #537D91;
+}
+}
+
+
+/*rtl*/
+.rtl .notification-content {
+    flex-direction: row-reverse;
+}
+
+
+.rtl .navbar-left{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#en{
+    display: none;
+}
+
+@media(max-width:767px){
+    .rtl .navbar-left {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+    .rtl .navbar-right{
+        text-align: right;
+    }
+    .navbar-default .navbar-collapse{
+    border-color: #e7e7e7;
+    background-color: #334565;
+}
+
+}
+
+
+.fa-globe:before {
+    font-size: 16px;
+}
+
+@media(max-width:414px){
+    .notification-list {
+    right: -53px;
+    width: 269px;
+}
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* width */
+.notification-list ::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.5); 
+    width: 0px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #334565; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #334565; 
+}
+    
+    

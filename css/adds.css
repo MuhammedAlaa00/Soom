@@ -1,0 +1,350 @@
+
+@font-face {
+  font-family: Tajawal;
+  src: url(../fonts/Tajawal-Medium.ttf);
+}
+body,html{
+    font-family: Tajawal;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #4D7488;
+    
+}
+p, h1, h2, h3, ol, ul , li,span{
+    margin: 0;
+    padding: 0;
+}
+button, input:focus{
+    outline: none !important;
+}
+
+li{
+    list-style: none;
+}
+
+.row{
+    margin: 0px;
+}
+
+/*main*/
+.main{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.content{
+    margin-bottom: 50px;
+    padding-top: 100px;
+    display: flex;
+}
+@media(max-width:767px){
+    .content{
+    padding-top: 64px;
+        display: block;
+}
+.title a 
+{
+    margin: 4px;
+    margin-top: 10px;
+}
+}
+.title, .atach-image, .video{
+    flex: 4;
+}
+video{
+    width: 100%;
+    border-radius: 7px;
+}
+.content h2{
+    text-align: center;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 7px;
+   color: #334565;
+    background-color: #fff;
+}
+
+.form-group{
+    display: flex;
+    align-items: center;
+}
+.form-group label{
+    flex: 1;
+    color: #fff;
+}
+.rtl .form-group label{
+    flex: 1;
+    order: 1;
+    text-align: right;
+}
+.form-group select, .form-group input, .form-group textarea,.form-group .images-product
+{
+    flex: 4;
+}
+.ad_head label 
+{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.inputs input[type="text"] , .inputs select{
+    margin: 20px 0px;
+    height: 50px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: border-radius 1s;
+}
+.inputs input:focus,  .inputs select:focus{
+    margin: 20px 0px;
+    height: 50px;
+    border-radius: 2px;
+}
+
+.inputs textarea{
+    margin: 20px 0px;
+    min-height: 100px;
+    border-radius: 25px;
+    transition: border-radius 1s;
+}
+.inputs textarea:focus{
+    margin: 20px 0px;
+    border-radius: 2px;
+}
+
+.images-product .mypicture{
+    float: left;
+}
+/*button*/
+.btn-defualt{
+    display: block;
+    width: 120px;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 30px auto;
+    color: #334565;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    box-shadow: 0px 3px 10px rgba(0,0,0,.8);
+}
+
+.form p{
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+.form-control {
+    border: 1px solid #2e5365;}
+.form-control:focus {
+    border: 1px solid #2e5365;
+}
+
+
+
+.input-group {
+    position: relative;
+    display: block;
+}
+
+
+
+
+
+
+/*add image*/
+.add_pic label 
+{
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mypicture{
+    position: relative;
+    margin-bottom: 20px;
+}
+.images-product .mypicture{
+    width: 23%;
+    position: relative;
+    margin: 1%;
+}
+.avatar{
+    width: 100%;
+    height: 175px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #dddd;
+
+}
+
+.avatar img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    
+}
+
+.input-avatar{
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    right: 0px;
+    bottom: 0px;
+    z-index: 2;
+    left: 0px;
+    top: 0px;
+    cursor: pointer;
+}
+
+.input-avatar:before {
+    content: "+";
+    display: block;
+    width: 100%;
+    font-size: 30px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    cursor: pointer;
+    color: #537D91;
+}
+.input-avatar input{
+    opacity: 0;
+    display: none;
+}
+/*rtl*/
+.rtl select, .rtl option {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+.red    { color: red; }
+.blue{ color: blue; }
+.green  { color: green; }
+
+@media(max-width:1000px){
+    .avatar{
+    width: 100%;
+    height: 140px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px solid #dddd;
+
+}
+    .input-avatar:before {
+   
+    height: 140px;
+           line-height: 140px;
+   
+}
+}
+@media(max-width:750px){
+    .avatar{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px solid #dddd;
+
+}
+     .input-avatar:before {
+   
+    height: 100px;
+            line-height: 100px;
+   
+}
+}
+
+@media(max-width:500px){
+    .avatar{
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px solid #dddd;
+
+}
+    .title-content label, .button-content label{
+        flex: 0 !important
+    }
+   
+     .input-avatar:before {
+   
+    height: 80px;
+            line-height: 80px;
+   
+}
+}
+
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=1);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+/*rtl*/
+.rtl .inputs input[type="text"], .rtl .inputs select {
+    margin: 20px 0px;
+    height: 50px;
+    text-align: right;}
+    .title 
+{
+  background-color: #fff;
+  text-align: center;
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 15px;
+  flex: unset;
+}
+.title a{
+  text-decoration: none;
+  text-align: center;
+  font-size: 17px;
+  color: #3a5d9c;
+  display: inline-block;
+  margin: 10px;
+  text-transform: capitalize;
+  text-transform: uppercase;
+
+}
+.title a:hover 
+{
+  text-decoration: none;
+}
+.title .active
+{
+    color: #334565;
+}
+@media(max-width:767px){
+.title a 
+{
+    margin: 4px;
+    margin-top: 10px;
+}
+}

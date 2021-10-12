@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOOM</title>
+    <link id="favicon" rel="shortcut icon" type="image/png" href="images/soom-social-logo.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/sub-category.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+    <!-- main-->
+    <div class="main">
+        <!-- navbar-->
+        <nav id="navbar" class="navbar navbar-default home-navbar">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" id="navbar-toggle" class="navbar-toggle " data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="navbar-toggle notification-toggle" aria-expanded="false">
+                        <div class="notification">
+                            <span class="notification-icon "><i class="fa fa-bell"></i></span>
+                            <span class="number">50</span>
+
+                            <div class="notification-list">
+                                <a href="#">
+                                    <div class="notification-content">
+                                        <div class="notification-img ">
+                                            <img src="images/bg.jpg" alt="">
+                                        </div>
+                                        <div class="notification-info">
+                                            <h2>title title title title title</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi,
+                                                rerum sit! Ipsam, hic laboriosam perferendis enim, dolorem vero
+                                                facere suscipit rerum amet, voluptas corrupti dolorum, porro
+                                                debitis! Et, repellendus ab.</p>
+                                            <div><span class="notification-date">10/2/2020</span> <span
+                                                    class="notification-time">9:40 pm</span></div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="notification-content">
+                                        <div class="notification-img ">
+                                            <img src="images/bg.jpg" alt="">
+                                        </div>
+                                        <div class="notification-info">
+                                            <h2>title title title title title</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi,
+                                                rerum sit! Ipsam, hic laboriosam perferendis enim, dolorem vero
+                                                facere suscipit rerum amet, voluptas corrupti dolorum, porro
+                                                debitis! Et, repellendus ab.</p>
+                                            <div><span class="notification-date">10/2/2020</span> <span
+                                                    class="notification-time">9:40 pm</span></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a href="#" class="lang" key="home">Home</a></li>
+                        <li><a href="#" class="lang" key="about-us">About Us</a></li>
+                        <li><a href="#" class="lang" key="sign-in">Sign in</a></li>
+                        <li><a href="#" class="lang" key="my-profile">My Profile</a></li>
+                        <li><span class="fa fa-search" onclick="openSearch()"></span></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li id="en" class="translate"><a href="#"><i class="fa fa-globe"></i> english</a></li>
+                        <li id="ar" class="translate"><a href="#">عربي <i class="fa fa-globe"></i></a></li>
+                        <li class="noti">
+                            <div class="notification">
+                                <span class="notification-icon "><i class="fa fa-bell"></i></span>
+                                <span class="number">999</span>
+
+                                <div class="notification-list">
+                                    <a href="#">
+                                        <div class="notification-content">
+                                            <div class="notification-img ">
+                                                <img src="images/bg.jpg" alt="">
+                                            </div>
+                                            <div class="notification-info">
+                                                <h2>title title title title title</h2>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi,
+                                                    rerum sit! Ipsam, hic laboriosam perferendis enim, dolorem vero
+                                                    facere suscipit rerum amet, voluptas corrupti dolorum, porro
+                                                    debitis! Et, repellendus ab.</p>
+                                                <div><span class="notification-date">10/2/2020</span> <span
+                                                        class="notification-time">9:40 pm</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="notification-content">
+                                            <div class="notification-img ">
+                                                <img src="images/bg.jpg" alt="">
+                                            </div>
+                                            <div class="notification-info">
+                                                <h2>title title title title title</h2>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi,
+                                                    rerum sit! Ipsam, hic laboriosam perferendis enim, dolorem vero
+                                                    facere suscipit rerum amet, voluptas corrupti dolorum, porro
+                                                    debitis! Et, repellendus ab.</p>
+                                                <div><span class="notification-date">10/2/2020</span> <span
+                                                        class="notification-time">9:40 pm</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+            <div id="myOverlay" class="overlay">
+                <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+                <div class="overlay-content">
+                    <form action="/action_page.php">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search for...">
+                            <span class="input-group-btn">
+                                <button class="btn" type="button"> Search </button>
+                            </span>
+                        </div><!-- /input-group -->
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!--        filter-->
+        <div class="filter-category">
+           <div class="container-fluid">
+            <div class="filter-name">
+                <div class="filter-content">
+                <button class="btn btn-default filter-button active" data-filter="all">All</button>
+                <button class="btn btn-default filter-button" data-filter="photo">Photo</button>
+                <button class="btn btn-default filter-button" data-filter="graphic">Graphic</button>
+                <button class="btn btn-default filter-button" data-filter="webdesign">Web design</button>
+                <button class="btn btn-default filter-button" data-filter="fashion">fashion</button>
+                <span class="fa fa-search search-dropdown"></span>
+            </div>
+            </div>
+           </div>
+            <br />
+      <!--          search-->
+      <div class="search">
+        <!--        inputs-->
+                 <div class="row">
+        <!--            الفئات الفرعية-->
+                     <div class="col-md-4 col-sm-6 ">
+                        <div class="inputs">
+                            <div class="form-group">
+                                <input name="text" type="email" class="form-control" placeholder="الفئات الفرعية">
+                            </div>
+                        </div>
+                     </div>
+        <!--             المنطقة-->
+                     <div class="col-md-4 col-sm-6">
+                         <div class="inputs">
+                            <div class="form-group">
+                                <input name="text" type="email" class="form-control" placeholder="المنطقة">
+                            </div>
+                        </div>
+                     </div>
+        <!--             المدينة-->
+                     <div class="col-md-4 col-sm-6">
+                         <div class="inputs">
+                            <div class="form-group">
+                                <input name="text" type="email" class="form-control" placeholder="المدينة">
+                            </div>
+                        </div>
+                     </div>
+        <!--              نظام الدفع-->
+                     <div class="col-md-4 col-sm-6">
+                         <div class="inputs">
+                            <div class="form-group">
+                                <input name="text" type="email" class="form-control" placeholder="نظام الدفع">
+                            </div>
+                        </div>
+                     </div>
+        <!--             عدد الشوارع-->
+                     <div class="col-md-4 col-sm-6">
+                         <div class="inputs">
+                            <div class="form-group">
+                                <input name="text" type="email" class="form-control" placeholder="عدد الشوارع">
+                            </div>
+                        </div>
+                     </div>
+        <!--             فرز الأرض-->
+                     <div class="col-md-4 col-sm-6">
+                         <div class="inputs">
+                            <div class="form-group">
+                                <input name="text" type="email" class="form-control" placeholder="فرز الأرض">
+                            </div>
+                        </div>
+                     </div>
+        <!--             السعر الاجمالي-->
+                     <div class="col-md-4 col-sm-6">
+                         <div class="inputs">
+                            <div class="form-group">
+                                <input name="text" type="email" class="form-control" placeholder="السعر الاجمالي">
+                            </div>
+                        </div>
+                     </div>
+        <!--             سعر القدم-->
+                     <div class="col-md-4 col-sm-6">
+                         <div class="inputs">
+                            <div class="form-group">
+                                <input name="text" type="email" class="form-control" placeholder="سعر القدم">
+                            </div>
+                        </div>
+                     </div>
+        <!--             مساحة الأرض-->
+                     <div class="col-md-4 col-sm-6">
+                         <div class="inputs">
+                            <div class="form-group">
+                                <input name="text" type="email" class="form-control" placeholder="مساحة الأرض">
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+              </div> <!-- end search-->
+<!--              sub-category-->
+            <div class="row">
+                <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3 filter photo">
+                    <div class="recently-section">
+                       <a href="#" data-toggle="modal" data-target="#exampleModalCenter">
+                        <div class="recently-image">
+                            <img class="recently-bg" src="images/cat6.jpg" alt="">
+                            <div class="recently-overlay">
+                                <img src="images/link.png">
+                            </div>
+                        </div>
+                        <div class="head-data">
+                            <div class="ad_name">
+                                <p>real state</p>
+                            </div>
+                            <div class="recently-time">
+                                <span>1min 25sec.</span>
+                            </div>
+                        </div>
+                        <div class="recently-content">
+                             <div class="recently-info">
+                            <div class="recently-title"><p >Title Title</p></div>
+                        </div>
+                        <div class="desc">
+                            <div class="key">
+                                <p>city</p>
+                                <p>city</p>
+                                <p>city</p>
+                            </div>
+                            <div class="value">
+                                <p>cairo</p>
+                                <p>cairo</p>
+                                <p>cairo</p>
+                            </div>
+                        </div>     
+                    </div>
+                        <div class="ad-center">
+                            <div class="star">
+                                <a href="#"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></a>
+                            </div>
+                            <div class="recently-view">
+                                <p>2,526,471 Views</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3 filter photo">
+                    <div class="recently-section">
+                       <a href="#" data-toggle="modal" data-target="#exampleModalCenter">
+                        <div class="recently-image">
+                            <img class="recently-bg" src="images/cat6.jpg" alt="">
+                            <div class="recently-overlay">
+                                <img src="images/link.png">
+                            </div>
+                        </div>
+                        <div class="head-data">
+                            <div class="ad_name">
+                                <p>real state</p>
+                            </div>
+                            <div class="recently-time">
+                                <span>1min 25sec.</span>
+                            </div>
+                        </div>
+                        <div class="recently-content">
+                             <div class="recently-info">
+                            <div class="recently-title"><p >Title Title</p></div>
+                        </div>
+                        <div class="desc">
+                      <div class="key">
+                          <p>city</p>
+                          <p>city</p>
+                          <p>city</p>
+                      </div>
+                      <div class="value">
+                          <p>cairo</p>
+                          <p>cairo</p>
+                          <p>cairo</p>
+                      </div>
+                  </div>
+                        </div>
+                        <div class="ad-center">
+                            <div class="star">
+                                <a href="#"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></a>
+                            </div>
+                            <div class="recently-view">
+                                <p>2,526,471 Views</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3 filter fashion">
+                    <div class="recently-section">
+                       <a href="#" data-toggle="modal" data-target="#exampleModalCenter">
+                        <div class="recently-image">
+                            <img class="recently-bg" src="images/cat6.jpg" alt="">
+                            <div class="recently-overlay">
+                                <img src="images/link.png">
+                            </div>
+                        </div>
+                        <div class="head-data">
+                            <div class="ad_name">
+                                <p>real state</p>
+                            </div>
+                            <div class="recently-time">
+                                <span>1min 25sec.</span>
+                            </div>
+                        </div>
+                        <div class="recently-content">
+                             <div class="recently-info">
+                            <div class="recently-title"><p >Title Title</p></div>
+                        </div>
+                        <div class="desc">
+                      <div class="key">
+                          <p>city</p>
+                          <p>city</p>
+                          <p>city</p>
+                      </div>
+                      <div class="value">
+                          <p>cairo</p>
+                          <p>cairo</p>
+                          <p>cairo</p>
+                      </div>
+                  </div>
+                        </div>
+                        <div class="ad-center">
+                            <div class="star">
+                                <a href="#"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></a>
+                            </div>
+                            <div class="recently-view">
+                                <p>2,526,471 Views</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3 filter fashion">
+                    <div class="recently-section">
+                       <a href="#" data-toggle="modal" data-target="#exampleModalCenter">
+                        <div class="recently-image">
+                            <img class="recently-bg" src="images/cat6.jpg" alt="">
+                            <div class="recently-overlay">
+                                <img src="images/link.png">
+                            </div>
+                        </div>
+                        <div class="head-data">
+                            <div class="ad_name">
+                                <p>real state</p>
+                            </div>
+                            <div class="recently-time">
+                                <span>1min 25sec.</span>
+                            </div>
+                        </div>
+                        <div class="recently-content">
+                             <div class="recently-info">
+                            <div class="recently-title"><p >Title Title</p></div>
+                        </div>
+                        <div class="desc">
+                      <div class="key">
+                          <p>city</p>
+                          <p>city</p>
+                          <p>city</p>
+                      </div>
+                      <div class="value">
+                          <p>cairo</p>
+                          <p>cairo</p>
+                          <p>cairo</p>
+                      </div>
+                  </div>
+                        </div>
+                        <div class="ad-center">
+                            <div class="star">
+                                <a href="#"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></a>
+                            </div>
+                            <div class="recently-view">
+                                <p>2,526,471 Views</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3 filter graphic">
+                    <div class="recently-section">
+                       <a href="#" data-toggle="modal" data-target="#exampleModalCenter">
+                        <div class="recently-image">
+                            <img class="recently-bg" src="images/cat6.jpg" alt="">
+                            <div class="recently-overlay">
+                                <img src="images/link.png">
+                            </div>
+                        </div>
+                        <div class="head-data">
+                            <div class="ad_name">
+                                <p>real state</p>
+                            </div>
+                            <div class="recently-time">
+                                <span>1min 25sec.</span>
+                            </div>
+                        </div>
+                        <div class="recently-content">
+                             <div class="recently-info">
+                            <div class="recently-title"><p >Title Title</p></div>
+                        </div>
+                        <div class="desc">
+                      <div class="key">
+                          <p>city</p>
+                          <p>city</p>
+                          <p>city</p>
+                      </div>
+                      <div class="value">
+                          <p>cairo</p>
+                          <p>cairo</p>
+                          <p>cairo</p>
+                      </div>
+                  </div>
+                        </div>
+                        <div class="ad-center">
+                            <div class="star">
+                                <a href="#"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></a>
+                            </div>
+                            <div class="recently-view">
+                                <p>2,526,471 Views</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3 filter graphic">
+                    <div class="recently-section">
+                       <a href="#" data-toggle="modal" data-target="#exampleModalCenter">
+                        <div class="recently-image">
+                            <img class="recently-bg" src="images/cat6.jpg" alt="">
+                            <div class="recently-overlay">
+                                <img src="images/link.png">
+                            </div>
+                        </div>
+                        <div class="head-data">
+                            <div class="ad_name">
+                                <p>real state</p>
+                            </div>
+                            <div class="recently-time">
+                                <span>1min 25sec.</span>
+                            </div>
+                        </div>
+                        <div class="recently-content">
+                             <div class="recently-info">
+                            <div class="recently-title"><p >Title Title</p></div>
+                        </div>
+                        <div class="desc">
+                      <div class="key">
+                          <p>city</p>
+                          <p>city</p>
+                          <p>city</p>
+                      </div>
+                      <div class="value">
+                          <p>cairo</p>
+                          <p>cairo</p>
+                          <p>cairo</p>
+                      </div>
+                  </div>
+                        </div>
+                        <div class="ad-center">
+                            <div class="star">
+                                <a href="#"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></a>
+                            </div>
+                            <div class="recently-view">
+                                <p>2,526,471 Views</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3 filter graphic">
+                    <div class="recently-section">
+                       <a href="#" data-toggle="modal" data-target="#exampleModalCenter">
+                        <div class="recently-image">
+                            <img class="recently-bg" src="images/cat6.jpg" alt="">
+                            <div class="recently-overlay">
+                                <img src="images/link.png">
+                            </div>
+                        </div>
+                        <div class="head-data">
+                            <div class="ad_name">
+                                <p>real state</p>
+                            </div>
+                            <div class="recently-time">
+                                <span>1min 25sec.</span>
+                            </div>
+                        </div>
+                        <div class="recently-content">
+                             <div class="recently-info">
+                            <div class="recently-title"><p >Title Title</p></div>
+                        </div>
+                        <div class="desc">
+                      <div class="key">
+                          <p>city</p>
+                          <p>city</p>
+                          <p>city</p>
+                      </div>
+                      <div class="value">
+                          <p>cairo</p>
+                          <p>cairo</p>
+                          <p>cairo</p>
+                      </div>
+                  </div>
+                        </div>
+                        <div class="ad-center">
+                            <div class="star">
+                                <a href="#"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></a>
+                            </div>
+                            <div class="recently-view">
+                                <p>2,526,471 Views</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3 filter fashion">
+                    <div class="recently-section">
+                       <a href="#" data-toggle="modal" data-target="#exampleModalCenter">
+                        <div class="recently-image">
+                            <img class="recently-bg" src="images/cat6.jpg" alt="">
+                            <div class="recently-overlay">
+                                <img src="images/link.png">
+                            </div>
+                        </div>
+                        <div class="head-data">
+                            <div class="ad_name">
+                                <p>real state</p>
+                            </div>
+                            <div class="recently-time">
+                                <span>1min 25sec.</span>
+                            </div>
+                        </div>
+                        <div class="recently-content">
+                             <div class="recently-info">
+                            <div class="recently-title"><p >Title Title</p></div>
+                        </div>
+                        <div class="desc">
+                      <div class="key">
+                          <p>city</p>
+                          <p>city</p>
+                          <p>city</p>
+                      </div>
+                      <div class="value">
+                          <p>cairo</p>
+                          <p>cairo</p>
+                          <p>cairo</p>
+                      </div>
+                  </div>
+                        </div>
+                        <div class="ad-center">
+                            <div class="star">
+                                <a href="#"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></a>
+                            </div>
+                            <div class="recently-view">
+                                <p>2,526,471 Views</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3 filter fashion">
+                    <div class="recently-section">
+                       <a href="#" data-toggle="modal" data-target="#exampleModalCenter">
+                        <div class="recently-image">
+                            <img class="recently-bg" src="images/cat6.jpg" alt="">
+                            <div class="recently-overlay">
+                                <img src="images/link.png">
+                            </div>
+                        </div>
+                        <div class="head-data">
+                            <div class="ad_name">
+                                <p>real state</p>
+                            </div>
+                            <div class="recently-time">
+                                <span>1min 25sec.</span>
+                            </div>
+                        </div>
+                        <div class="recently-content">
+                             <div class="recently-info">
+                            <div class="recently-title"><p >Title Title</p></div>
+                        </div>
+                        <div class="desc">
+                      <div class="key">
+                          <p>city</p>
+                          <p>city</p>
+                          <p>city</p>
+                      </div>
+                      <div class="value">
+                          <p>cairo</p>
+                          <p>cairo</p>
+                          <p>cairo</p>
+                      </div>
+                  </div>
+                        </div>
+                        <div class="ad-center">
+                            <div class="star">
+                                <a href="#"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></a>
+                            </div>
+                            <div class="recently-view">
+                                <p>2,526,471 Views</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3 filter graphic">
+                    <div class="recently-section">
+                       <a href="#" data-toggle="modal" data-target="#exampleModalCenter">
+                        <div class="recently-image">
+                            <img class="recently-bg" src="images/cat6.jpg" alt="">
+                            <div class="recently-overlay">
+                                <img src="images/link.png">
+                            </div>
+                        </div>
+                        <div class="head-data">
+                            <div class="ad_name">
+                                <p>real state</p>
+                            </div>
+                            <div class="recently-time">
+                                <span>1min 25sec.</span>
+                            </div>
+                        </div>
+                        <div class="recently-content">
+                             <div class="recently-info">
+                            <div class="recently-title"><p >Title Title</p></div>
+                        </div>
+                        <div class="desc">
+                      <div class="key">
+                          <p>city</p>
+                          <p>city</p>
+                          <p>city</p>
+                      </div>
+                      <div class="value">
+                          <p>cairo</p>
+                          <p>cairo</p>
+                          <p>cairo</p>
+                      </div>
+                  </div>
+                        </div>
+                        <div class="ad-center">
+                            <div class="star">
+                                <a href="#"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></a>
+                            </div>
+                            <div class="recently-view">
+                                <p>2,526,471 Views</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3 filter photo">
+                    <div class="recently-section">
+                       <a href="#" data-toggle="modal" data-target="#exampleModalCenter">
+                        <div class="recently-image">
+                            <img class="recently-bg" src="images/cat6.jpg" alt="">
+                            <div class="recently-overlay">
+                                <img src="images/link.png">
+                            </div>
+                        </div>
+                        <div class="head-data">
+                            <div class="ad_name">
+                                <p>real state</p>
+                            </div>
+                            <div class="recently-time">
+                                <span>1min 25sec.</span>
+                            </div>
+                        </div>
+                        <div class="recently-content">
+                             <div class="recently-info">
+                            <div class="recently-title"><p >Title Title</p></div>
+                        </div>
+                        <div class="desc">
+                      <div class="key">
+                          <p>city</p>
+                          <p>city</p>
+                          <p>city</p>
+                      </div>
+                      <div class="value">
+                          <p>cairo</p>
+                          <p>cairo</p>
+                          <p>cairo</p>
+                      </div>
+                  </div>
+                        </div>
+                        <div class="ad-center">
+                            <div class="star">
+                                <a href="#"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></a>
+                            </div>
+                            <div class="recently-view">
+                                <p>2,526,471 Views</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3 filter photo">
+                    <div class="recently-section">
+                       <a href="#" data-toggle="modal" data-target="#exampleModalCenter">
+                        <div class="recently-image">
+                            <img class="recently-bg" src="images/cat6.jpg" alt="">
+                            <div class="recently-overlay">
+                                <img src="images/link.png">
+                            </div>
+                        </div>
+                        <div class="head-data">
+                            <div class="ad_name">
+                                <p>real state</p>
+                            </div>
+                            <div class="recently-time">
+                                <span>1min 25sec.</span>
+                            </div>
+                        </div>
+                        <div class="recently-content">
+                             <div class="recently-info">
+                            <div class="recently-title"><p >Title Title</p></div>
+                        </div>
+                        <div class="desc">
+                      <div class="key">
+                          <p>city</p>
+                          <p>city</p>
+                          <p>city</p>
+                      </div>
+                      <div class="value">
+                          <p>cairo</p>
+                          <p>cairo</p>
+                          <p>cairo</p>
+                      </div>
+                  </div>
+                        </div>
+                        <div class="ad-center">
+                            <div class="star">
+                                <a href="#"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></a>
+                            </div>
+                            <div class="recently-view">
+                                <p>2,526,471 Views</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3 filter webdesign">
+                    <div class="recently-section">
+                       <a href="#" data-toggle="modal" data-target="#exampleModalCenter">
+                        <div class="recently-image">
+                            <img class="recently-bg" src="images/cat6.jpg" alt="">
+                            <div class="recently-overlay">
+                                <img src="images/link.png">
+                            </div>
+                        </div>
+                        <div class="head-data">
+                            <div class="ad_name">
+                                <p>real state</p>
+                            </div>
+                            <div class="recently-time">
+                                <span>1min 25sec.</span>
+                            </div>
+                        </div>
+                        <div class="recently-content">
+                             <div class="recently-info">
+                            <div class="recently-title"><p >Title Title</p></div>
+                        </div>
+                        <div class="desc">
+                      <div class="key">
+                          <p>city</p>
+                          <p>city</p>
+                          <p>city</p>
+                      </div>
+                      <div class="value">
+                          <p>cairo</p>
+                          <p>cairo</p>
+                          <p>cairo</p>
+                      </div>
+                  </div>
+                        </div>
+                        <div class="ad-center">
+                            <div class="star">
+                                <a href="#"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></a>
+                            </div>
+                            <div class="recently-view">
+                                <p>2,526,471 Views</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3 filter webdesign">
+                    <div class="recently-section">
+                       <a href="#" data-toggle="modal" data-target="#exampleModalCenter">
+                        <div class="recently-image">
+                            <img class="recently-bg" src="images/cat6.jpg" alt="">
+                            <div class="recently-overlay">
+                                <img src="images/link.png">
+                            </div>
+                        </div>
+                        <div class="head-data">
+                            <div class="ad_name">
+                                <p>real state</p>
+                            </div>
+                            <div class="recently-time">
+                                <span>1min 25sec.</span>
+                            </div>
+                        </div>
+                        <div class="recently-content">
+                             <div class="recently-info">
+                            <div class="recently-title"><p >Title Title</p></div>
+                        </div>
+                        <div class="desc">
+                      <div class="key">
+                          <p>city</p>
+                          <p>city</p>
+                          <p>city</p>
+                      </div>
+                      <div class="value">
+                          <p>cairo</p>
+                          <p>cairo</p>
+                          <p>cairo</p>
+                      </div>
+                  </div>
+                        </div>
+                        <div class="ad-center">
+                            <div class="star">
+                                <a href="#"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></a>
+                            </div>
+                            <div class="recently-view">
+                                <p>2,526,471 Views</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3 filter webdesign">
+                    <div class="recently-section">
+                       <a href="#" data-toggle="modal" data-target="#exampleModalCenter">
+                        <div class="recently-image">
+                            <img class="recently-bg" src="images/cat6.jpg" alt="">
+                            <div class="recently-overlay">
+                                <img src="images/link.png">
+                            </div>
+                        </div>
+                        <div class="head-data">
+                            <div class="ad_name">
+                                <p>real state</p>
+                            </div>
+                            <div class="recently-time">
+                                <span>1min 25sec.</span>
+                            </div>
+                        </div>
+                        <div class="recently-content">
+                             <div class="recently-info">
+                            <div class="recently-title"><p >Title Title</p></div>
+                        </div>
+                        <div class="desc">
+                      <div class="key">
+                          <p>city</p>
+                          <p>city</p>
+                          <p>city</p>
+                      </div>
+                      <div class="value">
+                          <p>cairo</p>
+                          <p>cairo</p>
+                          <p>cairo</p>
+                      </div>
+                  </div>
+                        </div>
+                        <div class="ad-center">
+                            <div class="star">
+                                <a href="#"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></a>
+                            </div>
+                            <div class="recently-view">
+                                <p>2,526,471 Views</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12 col-md-6 col-lg-3 filter webdesign">
+                    <div class="recently-section">
+                       <a href="#" data-toggle="modal" data-target="#exampleModalCenter">
+                        <div class="recently-image">
+                            <img class="recently-bg" src="images/cat6.jpg" alt="">
+                            <div class="recently-overlay">
+                                <img src="images/link.png">
+                            </div>
+                        </div>
+                        <div class="head-data">
+                            <div class="ad_name">
+                                <p>real state</p>
+                            </div>
+                            <div class="recently-time">
+                                <span>1min 25sec.</span>
+                            </div>
+                        </div>
+                        <div class="recently-content">
+                             <div class="recently-info">
+                            <div class="recently-title"><p >Title Title</p></div>
+                        </div>
+                        <div class="desc">
+                      <div class="key">
+                          <p>city</p>
+                          <p>city</p>
+                          <p>city</p>
+                      </div>
+                      <div class="value">
+                          <p>cairo</p>
+                          <p>cairo</p>
+                          <p>cairo</p>
+                      </div>
+                  </div>
+                        </div>
+                        <div class="ad-center">
+                            <div class="star">
+                                <a href="#"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></a>
+                            </div>
+                            <div class="recently-view">
+                                <p>2,526,471 Views</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12"><button class="btn lang" id="loadMore" key="show-more">Show More</button></div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                <h5 class="modal-title" id="exampleModalLongTitle">general advice</h5>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <p class="info">meet in public.</p>
+                        <p class="info">dont send money in advance.</p>
+                        <p class="info">check the product well before purchasing it</p>
+                    </div>
+                </div>
+                <div class="modal-footer" style="text-align: center;">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">approval</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!--video live-->
+        <div class="video">
+            <img src="images/video-bg.png" alt="">
+            <video controls>
+                <source src="mov_bbb.mp4" type="video/mp4">
+                <source src="mov_bbb.ogg" type="video/ogg">
+            </video>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer">
+        <div class="container-fluid text-center text-md-left">
+
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-sm-5">
+
+                    <!-- Content -->
+                    <h5 class="text-uppercase lang" key="terms">Terms &amp; Conditions</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, quaerat? Neque
+                        excepturi laborum recusandae adipisci libero, magnam vel molestias provident voluptatum,
+                        deserunt quae inventore incidunt fugiat consectetur aut temporibus quasi.</p>
+
+                </div>
+
+                <!-- Grid column -->
+                <div class="col-sm-4">
+                    <!-- Links -->
+                    <h5 class="text-uppercase lang" key="support-links">Support Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="lang" key="home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lang" key="category">Category</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lang" key="about-us">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="lang" key="my-profile">My Profile</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <!-- Grid column -->
+                <div class="col-sm-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase lang" key="follow-us">Follow Us</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#">
+                                <span class="fa fa-facebook"></span>
+                                <span class="name lang" key="facebook">FaceBook</span></a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa fa-twitter"></span>
+                                <span class="name lang" key="twitter">Twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="#!">
+                                <span class="fa fa-youtube"></span>
+                                <span class="name lang" key="youtube">Youtube</span></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <!-- Footer Links -->
+        <hr class="clearfix ">
+        <div class="row">
+            <div class="col-sm-4 store">
+                <a href="#">
+                    <img src="images/google_play_badge_en_black.jpg" alt="">
+                </a>
+                <a href="#">
+                    <img src="images/apple_appstore_badge_en.svg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 logo-footer">
+                <a href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <div class="footer-copyright text-center py-3"><span class="lang" key="copyright">© 2020 Copyright:
+                    </span><a href="#">SOOM.com</a>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright -->
+
+
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    <!--    filter-->
+    <script>
+        $("#loadMore").on('click', function (e) {
+            e.preventDefault();
+
+            var item = $('.active').attr('data-filter');
+
+            if (item == "all") {
+                $(".filter").slice(0, 4).show(1000);
+
+                $(".filter:hidden").slice(0, 4).slideDown();
+                if ($(".filter:hidden").length == 0) {
+                    $("#load").fadeOut('slow');
+                }
+                $('html,body').animate({
+                    scrollTop: $(this).offset().top - 150
+                }, 1000);
+            }
+            else {
+                $("." + item + ":hidden").slice(0, 4).slideDown();
+                if ($("." + item + ":hidden").length == 0) {
+                    $("#load").fadeOut('slow');
+                }
+                console.log("." + item + ":hidden");
+                $('html,body').animate({
+                    scrollTop: $(this).offset().top - 150
+                }, 1000);
+            }
+        });
+
+        $(".filter").slice(0, 8).show();
+
+        $(".filter-button").click(function () {
+
+            $('.btn-default').removeClass('active');
+            $(this).addClass('active');
+
+            var value = $(this).attr('data-filter');
+
+            if (value == "all") {
+                $(".filter").hide();
+                $(".filter").slice(0, 8).show(1000);
+                
+                if($('.filter').length <=8){
+                    $("#loadMore").hide(1000);
+                }
+                 else{
+                    $("#loadMore").show(1000);
+                }
+
+            }
+            else {
+                
+                $(".filter").hide(1000);
+                $('.filter').filter('.' + value).slice(0, 8).show(1000);
+                if($('.filter').filter('.' + value).length <=8){
+                    $("#loadMore").hide(1000);
+                }
+                else{
+                    $("#loadMore").show(1000);
+                }
+            }
+        });
+    </script>
+    <script>
+    //    $("serch").toggle(10);
+    $('.search-dropdown').click(function(){
+        $('.search').toggle(1000) ;
+    })
+  
+    
+    </script>
+
+</body>
+
+</html>
